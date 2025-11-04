@@ -43,7 +43,7 @@ O projeto segue um fluxo de trabalho baseado em branches para organizar o desenv
 - **`main`:** Branch principal contendo o código estável e pronto para produção.
 - **Branches de desenvolvimento:** Branches individuais ou por funcionalidade (ex: `feature/conversao-moedas`, `dev/joao`, `feature/historico`).
 
-> **Importante:** Para detalhes completos sobre todos os comandos Git utilizados no projeto e o fluxo de trabalho passo a passo, consulte o **[Guia de Comandos Git](ionicnewsdocs/UseCase/Guia-comandos-git.pdf)**.
+> **Importante:** Para detalhes completos sobre todos os comandos Git utilizados no projeto e o fluxo de trabalho passo a passo, consulte o **[Guia de Comandos Git](ionicnewsdocs/Guia-comandos-git.pdf)**.
 
 ## Como Contribuir
 
@@ -124,9 +124,9 @@ git push origin feature/nome-da-funcionalidade
 
 O projeto possui guias detalhados para auxiliar no desenvolvimento:
 
-- **[Guia de Comandos Git](ionicnewsdocs/UseCase/Guia-comandos-git.pdf):** Tutorial completo com todos os comandos Git utilizados no projeto, incluindo fluxo de trabalho com branches, resolução de conflitos e boas práticas.
+- **[Guia de Comandos Git](ionicnewsdocs/Guia-comandos-git.pdf):** Tutorial completo com todos os comandos Git utilizados no projeto, incluindo fluxo de trabalho com branches, resolução de conflitos e boas práticas.
 
-- **[Tutorial de Ferramentas e Stack](ionicnewsdocs/UseCase/Tutorial-Ferramentas-Stack.pdf):** Documentação completa sobre ferramentas, bibliotecas, frameworks, dispositivos necessários e comandos de instalação/configuração.
+- **[Tutorial de Ferramentas e Stack](ionicnewsdocs/Tutorial-Ferramentas-Stack.pdf):** Documentação completa sobre ferramentas, bibliotecas, frameworks, dispositivos necessários e comandos de instalação/configuração.
 
 ## Estrutura do Projeto
 
