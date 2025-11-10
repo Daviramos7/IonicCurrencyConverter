@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Configurações</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-radio-group [(ngModel)]="updateFrequency" (ionChange)="saveSettings()">
+      <ion-list-header>
+        <ion-label>Frequência de Atualização (WIP)</ion-label>
+      </ion-list-header>
+
+      <ion-item>
+        <ion-label>Ao abrir o app</ion-label>
+        <ion-radio slot="start" value="on_open"></ion-radio>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>A cada hora</ion-label>
+        <ion-radio slot="start" value="hourly"></ion-radio>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>Diariamente</ion-label>
+        <ion-radio slot="start" value="daily"></ion-radio>
+      </ion-item>
+    </ion-radio-group>
+  </ion-list>
+  
+  <ion-note class="ion-padding">
+    (Este é um exemplo de configuração. A lógica de atualização automática ainda precisa ser implementada.)
+  </ion-note>
+
+</ion-content>

@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Gráfico (Últimas Taxas)</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <p class="ion-text-center">Variação da taxa de câmbio (baseado no seu histórico)</p>
+  <div *ngIf="lineChartData.datasets[0].data.length > 1; else noData">
+    <canvas baseChart 
+      [data]="lineChartData" 
+      [options]="lineChartOptions" 
+      [type]="'line'">
+    </canvas>
+  </div>
+
+  <ng-template #noData> <div class="ion-padding ion-text-center" style="margin-top: 50px;">
+      <ion-icon name="analytics-outline" size="large" color="medium"></ion-icon>
+      <p>Dados insuficientes no histórico para gerar um gráfico.</p>
+    </div>
+  </ng-template>
+</ion-content>

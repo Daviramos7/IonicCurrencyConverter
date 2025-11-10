@@ -10,7 +10,19 @@ const routes: Routes = [
     path: '',
     redirectTo: 'home',
     pathMatch: 'full'
+  },  {
+    path: 'history',
+    loadChildren: () => import('./pages/history/history.module').then( m => m.HistoryPageModule)
   },
+  {
+    path: 'settings',
+    loadChildren: () => import('./pages/settings/settings.module').then( m => m.SettingsPageModule)
+  },
+  {
+    path: 'chart',
+    loadChildren: () => import('./pages/chart/chart.module').then( m => m.ChartPageModule)
+  },
+
 ];
 
 @NgModule({

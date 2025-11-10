@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Histórico</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="clearHistory()">
+        <ion-icon slot="icon-only" name="trash"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list *ngIf="history.length > 0; else noHistory">
+    <ion-item *ngFor="let item of history" lines="full">
+      <ion-label>
+        <h2>{{ item.amount }} {{ item.from }} = <strong>{{ item.result | number:'1.2-4' }} {{ item.to }}</strong></h2>
+        <p>{{ item.timestamp | date:'short' }}</p>
+      </ion-label>
+      <ion-note slot="end" color="medium">{{ item.rate | number:'1.4-4' }}</ion-note>
+    </ion-item>
+  </ion-list>
+
+  <ng-template #noHistory>
+    <div class="ion-padding ion-text-center" style="margin-top: 50px;">
+      <ion-icon name="archive-outline" size="large" color="medium"></ion-icon>
+      <p>Nenhum histórico de conversão.</p>
+    </div>
+  </ng-template>
+</ion-content>
