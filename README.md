@@ -6,9 +6,6 @@
 
 Um aplicativo móvel desenvolvido em Ionic para conversão de moedas em tempo real, consumindo APIs REST externas para obter taxas de câmbio atualizadas.
 
-![App Screenshot](link-para-screenshot-1.png)
-![Features](link-para-screenshot-2.png)
-
 ## 📱 Descrição do Projeto
 
 O **Ionic Currency Converter** é um aplicativo móvel para Android que permite aos usuários:
@@ -28,9 +25,6 @@ O **Ionic Currency Converter** é um aplicativo móvel para Android que permite 
 - **Modo Offline:** Utilização de taxas armazenadas localmente
 - **Conversão Inversa:** Inversão rápida entre moedas de origem e destino
 - **Gráficos de Cotação:** Visualização de variações históricas das taxas
-
-![Currency Selection](link-para-screenshot-3.png)
-![Conversion History](link-para-screenshot-4.png)
 
 ## 🚀 Tecnologias Utilizadas
 
@@ -100,7 +94,7 @@ main (produção)
   └── dev/nome-desenvolvedor
 ```
 
-![Workflow Diagram](link-para-workflow-diagram.png)
+![Workflow Diagram](ionicnewsdocs/Models/classes/fluxograma%20ionic.pdf)
 
 ### Como Contribuir
 
