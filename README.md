@@ -92,7 +92,7 @@ main (produção)
   └── feature/conversao-moedas
   └── feature/historico
   └── dev/nome-desenvolvedor
-```
+
 
 ![Workflow Diagram](ionicnewsdocs/Models/classes/fluxograma%20ionic.pdf)
 
@@ -122,7 +122,7 @@ Contribuições são bem-vindas! Para contribuir:
 
 ## 📁 Estrutura do Projeto
 
-```
+
 IonicCurrencyConverter/
 ├── ionicnewsapi/          # Backend API (opcional)
 ├── ionicnewsapp/          # Aplicativo Ionic principal
@@ -146,7 +146,7 @@ IonicCurrencyConverter/
 ├── LICENSE                # Licença Creative Commons
 ├── README.md              # Este arquivo
 └── TODO.md                # Tarefas pendentes
-```
+
 
 ## 👥 Autores
 
@@ -161,6 +161,5 @@ IonicCurrencyConverter/
 
 Este projeto está licenciado sob a [Creative Commons Attribution-ShareAlike 4.0 International License](LICENSE).
 
----
 
 **Desenvolvido com 💙 pela equipe do Ionic Currency Converter**
